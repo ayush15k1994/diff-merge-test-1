@@ -6,13 +6,13 @@
     "accessors": [
       {
         "id": "acc_submit_login",
-        "name": "Submit Login",
+        "name": "User Login",
         "accessor": "_submit(\"Login\")",
         "specific": []
       },
       {
         "id": "acc_button_logout",
-        "name": "Button Logout",
+        "name": "User Logout",
         "accessor": "_button(\"Logout\")",
         "specific": []
       }

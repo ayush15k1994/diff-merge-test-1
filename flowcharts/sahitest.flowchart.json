@@ -38,15 +38,7 @@
       },
       "fcn_addbookstocart_1": {
         "id": "fcn_addbookstocart_1",
-        "content": "Add Books to $cart",
-        "nodeType": "action",
-        "branches": [
-          "fcn_verifycarttotal_0"
-        ]
-      },
-      "fcn_verifycarttotal_0": {
-        "id": "fcn_verifycarttotal_0",
-        "content": "Verify $cart total",
+        "content": "Add Books to $cart and verify total",
         "nodeType": "action",
         "branches": [
           "fcn_logoutuser_0"
@@ -80,12 +72,8 @@
         "top": 394.1562,
         "left": 500.0
       },
-      "fcn_verifycarttotal_0": {
-        "top": 459.296825,
-        "left": 500.0
-      },
       "fcn_logoutuser_0": {
-        "top": 524.43745,
+        "top": 473.421875,
         "left": 500.0
       }
     },
@@ -97,10 +85,13 @@
           "fcn_sahitest_0",
           "fcn_loginuser_0",
           "fcn_addbookstocart_1",
-          "fcn_verifycarttotal_0",
           "fcn_logoutuser_0"
         ],
         "dependsPathUID": "17442750315260",
+        "dataSet": {
+          "dataSetName": "cart.csv",
+          "dataSetGroupName": "default"
+        },
         "isValidationsEnabled": false
       }
     ],
