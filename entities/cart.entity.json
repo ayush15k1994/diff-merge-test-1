@@ -1,0 +1,83 @@
+{
+  "name": "cart",
+  "id": "-1",
+  "type": 1,
+  "content": {
+    "default": {
+      "attr_q_0": {
+        "name": "q",
+        "accessors": [
+          {
+            "id": "acc_textbox_q",
+            "name": "Q Input",
+            "accessor": "_textbox(\"q\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "number",
+        "props": {
+          "min": "1",
+          "max": "1"
+        },
+        "invalidData": [],
+        "validData": []
+      },
+      "attr_q1_1": {
+        "name": "q1",
+        "accessors": [
+          {
+            "id": "acc_textbox_q1",
+            "name": "Q1 Input",
+            "accessor": "_textbox(\"q[1]\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "number",
+        "props": {
+          "min": "2",
+          "max": "2"
+        },
+        "invalidData": [],
+        "validData": []
+      },
+      "attr_q2_2": {
+        "name": "q2",
+        "accessors": [
+          {
+            "id": "acc_textbox_q2",
+            "name": "Q2 Input",
+            "accessor": "_textbox(\"q[2]\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "number",
+        "props": {
+          "min": "3",
+          "max": "3"
+        },
+        "invalidData": [],
+        "validData": []
+      },
+      "attr_total_3": {
+        "name": "total",
+        "accessors": [
+          {
+            "id": "acc_textbox_total",
+            "name": "Total Input",
+            "accessor": "_textbox(\"total\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "number",
+        "props": {
+          "min": "1750",
+          "max": "1750"
+        },
+        "invalidData": [],
+        "validData": []
+      }
+    }
+  },
+  "enabled": false,
+  "parentId": ""
+}

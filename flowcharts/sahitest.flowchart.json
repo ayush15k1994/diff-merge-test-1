@@ -1,0 +1,112 @@
+{
+  "name": "sahitest",
+  "id": "-1",
+  "type": 0,
+  "content": {
+    "nodesMap": {
+      "fcn_start_0": {
+        "id": "fcn_start_0",
+        "content": "Start",
+        "nodeType": "start",
+        "branches": [
+          "fcn_addbookstocart_0"
+        ]
+      },
+      "fcn_addbookstocart_0": {
+        "id": "fcn_addbookstocart_0",
+        "content": "Add Books to Cart",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_sahitest_0"
+        ]
+      },
+      "fcn_sahitest_0": {
+        "id": "fcn_sahitest_0",
+        "content": "@sahitest",
+        "nodeType": "action",
+        "branches": [
+          "fcn_loginuser_0"
+        ]
+      },
+      "fcn_loginuser_0": {
+        "id": "fcn_loginuser_0",
+        "content": "Login $user",
+        "nodeType": "action",
+        "branches": [
+          "fcn_addbookstocart_1"
+        ]
+      },
+      "fcn_addbookstocart_1": {
+        "id": "fcn_addbookstocart_1",
+        "content": "Add Books to $cart",
+        "nodeType": "action",
+        "branches": [
+          "fcn_verifycarttotal_0"
+        ]
+      },
+      "fcn_verifycarttotal_0": {
+        "id": "fcn_verifycarttotal_0",
+        "content": "Verify $cart total",
+        "nodeType": "action",
+        "branches": [
+          "fcn_logoutuser_0"
+        ]
+      },
+      "fcn_logoutuser_0": {
+        "id": "fcn_logoutuser_0",
+        "content": "Logout $user",
+        "nodeType": "action",
+        "branches": []
+      }
+    },
+    "positions": {
+      "fcn_start_0": {
+        "top": 150.0,
+        "left": 500.0
+      },
+      "fcn_addbookstocart_0": {
+        "top": 211.0,
+        "left": 500.0
+      },
+      "fcn_sahitest_0": {
+        "top": 270.0,
+        "left": 500.0
+      },
+      "fcn_loginuser_0": {
+        "top": 329.0,
+        "left": 500.0
+      },
+      "fcn_addbookstocart_1": {
+        "top": 394.1562,
+        "left": 500.0
+      },
+      "fcn_verifycarttotal_0": {
+        "top": 459.296825,
+        "left": 500.0
+      },
+      "fcn_logoutuser_0": {
+        "top": 524.43745,
+        "left": 500.0
+      }
+    },
+    "isPrimary": true,
+    "pathNames": [
+      {
+        "pathKey": [
+          "fcn_addbookstocart_0",
+          "fcn_sahitest_0",
+          "fcn_loginuser_0",
+          "fcn_addbookstocart_1",
+          "fcn_verifycarttotal_0",
+          "fcn_logoutuser_0"
+        ],
+        "dependsPathUID": "17442750315260",
+        "isValidationsEnabled": false
+      }
+    ],
+    "flowChartUID": "fcUID_sahitest_0",
+    "pathExecutionOrder": []
+  },
+  "enabled": true,
+  "parentId": ""
+}

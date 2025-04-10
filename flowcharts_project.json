@@ -1,10 +1,13 @@
 {
-    "description": "",
-    "title": "Diff merge test project",
-    "content": {
-      "isCustomFunctionsFromScriptsDir": false,
-      "projectSuiteInfo": [],
-      "flowchartsAndExternalDdcsvInfo": {},
-      "filters": {}
-    }
+  "description": "",
+  "title": "Diff merge test project",
+  "content": {
+    "isCustomFunctionsFromScriptsDir": false,
+    "projectSuiteInfo": [],
+    "flowchartsAndExternalDdcsvInfo": {},
+    "filters": {},
+    "executionOrder": [
+      "sahitest"
+    ]
   }
+}

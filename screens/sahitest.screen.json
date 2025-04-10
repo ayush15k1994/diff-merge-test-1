@@ -1,0 +1,23 @@
+{
+  "name": "sahitest",
+  "id": "-1",
+  "type": 2,
+  "content": {
+    "accessors": [
+      {
+        "id": "acc_button_add",
+        "name": "Button Add",
+        "accessor": "_button(\"Add\")",
+        "specific": []
+      },
+      {
+        "id": "acc_button_clear",
+        "name": "Button Clear",
+        "accessor": "_button(\"Clear\")",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

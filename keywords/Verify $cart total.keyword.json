@@ -1,0 +1,56 @@
+{
+  "name": "Verify $cart total",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Verify $cart total",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "cart_",
+        "entityTypeId": "cart",
+        "suffix": ""
+      }
+    ],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_getText",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "cart_",
+            "attributeId": "attr_total_3",
+            "accessorId": "acc_textbox_total"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Assert",
+        "assertType": "Equals",
+        "secondaryParam": {
+          "paramMode": "default",
+          "parameterId": "cart_",
+          "attributeId": "attr_total_3"
+        },
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "screenId": "sahitest",
+            "accessorId": "acc_button_clear"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}
