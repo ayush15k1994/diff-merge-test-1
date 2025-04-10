@@ -42,7 +42,12 @@
         "nodeType": "action",
         "branches": [
           "fcn_verifycarttotal_0"
-        ]
+        ],
+        "dataSet": {
+          "dataSetName": "cart.csv",
+          "dataSetGroupName": "default"
+        },
+        "dataSetBoundary": "datasetstart"
       },
       "fcn_verifycarttotal_0": {
         "id": "fcn_verifycarttotal_0",
@@ -50,7 +55,8 @@
         "nodeType": "action",
         "branches": [
           "fcn_logoutuser_0"
-        ]
+        ],
+        "dataSetBoundary": "datasetend"
       },
       "fcn_logoutuser_0": {
         "id": "fcn_logoutuser_0",
