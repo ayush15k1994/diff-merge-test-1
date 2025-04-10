@@ -6,13 +6,13 @@
     "accessors": [
       {
         "id": "acc_button_add",
-        "name": "Button Add",
+        "name": "Add Button",
         "accessor": "_button(\"Add\")",
         "specific": []
       },
       {
         "id": "acc_button_clear",
-        "name": "Button Clear",
+        "name": "Clear Button",
         "accessor": "_button(\"Clear\")",
         "specific": []
       }
