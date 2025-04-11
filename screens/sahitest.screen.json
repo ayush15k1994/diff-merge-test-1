@@ -6,13 +6,13 @@
     "accessors": [
       {
         "id": "acc_button_add",
-        "name": "Compute Cart Total",
+        "name": "Add Button",
         "accessor": "_button(\"Add\")",
         "specific": []
       },
       {
         "id": "acc_button_clear",
-        "name": "Clear Cart",
+        "name": "Clear Button",
         "accessor": "_button(\"Clear\")",
         "specific": []
       }

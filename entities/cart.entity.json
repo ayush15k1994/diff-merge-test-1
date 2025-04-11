@@ -5,7 +5,7 @@
   "content": {
     "default": {
       "attr_q_0": {
-        "name": "q",
+        "name": "java",
         "accessors": [
           {
             "id": "acc_textbox_q",
@@ -23,7 +23,7 @@
         "validData": []
       },
       "attr_q1_1": {
-        "name": "q1",
+        "name": "ruby",
         "accessors": [
           {
             "id": "acc_textbox_q1",
@@ -41,7 +41,7 @@
         "validData": []
       },
       "attr_q2_2": {
-        "name": "q2",
+        "name": "python",
         "accessors": [
           {
             "id": "acc_textbox_q2",
