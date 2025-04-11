@@ -41,7 +41,7 @@
       },
       "fcn_normalpath_0": {
         "id": "fcn_normalpath_0",
-        "content": "Normal Path",
+        "content": "Normal Path smol pathname",
         "nodeType": "pathlabel",
         "branches": [
           "fcn_logoutuser_0"
