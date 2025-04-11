@@ -9,7 +9,7 @@
         "accessors": [
           {
             "id": "acc_textbox_q",
-            "name": "Q Input",
+            "name": "Java Input",
             "accessor": "_textbox(\"q\")",
             "messageAccessor": ""
           }
@@ -27,7 +27,7 @@
         "accessors": [
           {
             "id": "acc_textbox_q1",
-            "name": "Q1 Input",
+            "name": "Ruby Input",
             "accessor": "_textbox(\"q[1]\")",
             "messageAccessor": ""
           }
@@ -45,7 +45,7 @@
         "accessors": [
           {
             "id": "acc_textbox_q2",
-            "name": "Q2 Input",
+            "name": "Python Input",
             "accessor": "_textbox(\"q[2]\")",
             "messageAccessor": ""
           }
@@ -63,7 +63,7 @@
         "accessors": [
           {
             "id": "acc_textbox_total",
-            "name": "Total Input",
+            "name": "Cart Total",
             "accessor": "_textbox(\"total\")",
             "messageAccessor": ""
           }
