@@ -120,11 +120,12 @@
         "dependsPathUID": "17443613062450",
         "pathDependsOn": {
           "fcUID_longdayummnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0": [
-            "17443613397712"
+            "17443613254361",
+            "17443613528423"
           ]
         },
-        "pathTags": "tagx,tagy",
-        "isValidationsEnabled": false
+        "pathTags": "tag1,tag2",
+        "isValidationsEnabled": true
       },
       {
         "pathKey": [
@@ -134,10 +135,11 @@
         "dependsPathUID": "17443613254361",
         "pathDependsOn": {
           "fcUID_longdayummnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0": [
-            "17443613062450"
+            "17443613397712",
+            "17443613528423"
           ]
         },
-        "pathTags": "taga,tagb",
+        "pathTags": "tag1,tag3",
         "isValidationsEnabled": true
       },
       {
@@ -154,7 +156,7 @@
           "fcn_logoutuser_0"
         ],
         "dependsPathUID": "17443613528423",
-        "pathTags": "teabagging",
+        "pathTags": "tag-normal",
         "isValidationsEnabled": false
       }
     ],
