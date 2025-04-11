@@ -1,0 +1,171 @@
+{
+  "name": "Long dayumm name - Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur congue sem nec mauris egestas in finibus nunc augue",
+  "id": "-1",
+  "type": 0,
+  "content": {
+    "nodesMap": {
+      "fcn_start_0": {
+        "id": "fcn_start_0",
+        "content": "Start",
+        "nodeType": "start",
+        "branches": [
+          "fcn_pathwithlongdayumnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0",
+          "fcn_anotherpathwithlongdayumnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0",
+          "fcn_yetanotherpathwithlongdayummmname_0",
+          "fcn_normalpath_0"
+        ]
+      },
+      "fcn_pathwithlongdayumnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0": {
+        "id": "fcn_pathwithlongdayumnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0",
+        "content": "Path with long dayum name Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur congue sem nec mauris egestas in finibus nunc augue",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_registeruser_0"
+        ]
+      },
+      "fcn_anotherpathwithlongdayumnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0": {
+        "id": "fcn_anotherpathwithlongdayumnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0",
+        "content": "Another Path with long dayum name - Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur congue sem nec mauris egestas in finibus nunc augue",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_loginuser_0"
+        ]
+      },
+      "fcn_yetanotherpathwithlongdayummmname_0": {
+        "id": "fcn_yetanotherpathwithlongdayummmname_0",
+        "content": "Yet another path with long dayummm name - Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur congue sem nec mauris egestas in finibus nunc augue",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_additemtocart_0"
+        ]
+      },
+      "fcn_normalpath_0": {
+        "id": "fcn_normalpath_0",
+        "content": "Normal Path",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_logoutuser_0"
+        ]
+      },
+      "fcn_registeruser_0": {
+        "id": "fcn_registeruser_0",
+        "content": "Register $user",
+        "nodeType": "action",
+        "branches": []
+      },
+      "fcn_loginuser_0": {
+        "id": "fcn_loginuser_0",
+        "content": "Login $user",
+        "nodeType": "action",
+        "branches": []
+      },
+      "fcn_additemtocart_0": {
+        "id": "fcn_additemtocart_0",
+        "content": "Add $item to cart",
+        "nodeType": "action",
+        "branches": []
+      },
+      "fcn_logoutuser_0": {
+        "id": "fcn_logoutuser_0",
+        "content": "Logout $user",
+        "nodeType": "action",
+        "branches": []
+      }
+    },
+    "positions": {
+      "fcn_start_0": {
+        "top": 152.0,
+        "left": 127.0
+      },
+      "fcn_pathwithlongdayumnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0": {
+        "top": 213.0,
+        "left": 127.0
+      },
+      "fcn_anotherpathwithlongdayumnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0": {
+        "top": 213.0,
+        "left": 407.0
+      },
+      "fcn_yetanotherpathwithlongdayummmname_0": {
+        "top": 213.0,
+        "left": 687.0
+      },
+      "fcn_normalpath_0": {
+        "top": 213.0,
+        "left": 967.0
+      },
+      "fcn_registeruser_0": {
+        "top": 314.0,
+        "left": 127.0
+      },
+      "fcn_loginuser_0": {
+        "top": 314.0,
+        "left": 407.0
+      },
+      "fcn_additemtocart_0": {
+        "top": 328.0,
+        "left": 687.0
+      },
+      "fcn_logoutuser_0": {
+        "top": 272.0,
+        "left": 967.0
+      }
+    },
+    "isPrimary": true,
+    "pathNames": [
+      {
+        "pathKey": [
+          "fcn_pathwithlongdayumnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0",
+          "fcn_registeruser_0"
+        ],
+        "dependsPathUID": "17443613062450",
+        "pathDependsOn": {
+          "fcUID_longdayummnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0": [
+            "17443613397712"
+          ]
+        },
+        "pathTags": "tagx,tagy",
+        "isValidationsEnabled": false
+      },
+      {
+        "pathKey": [
+          "fcn_anotherpathwithlongdayumnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0",
+          "fcn_loginuser_0"
+        ],
+        "dependsPathUID": "17443613254361",
+        "pathDependsOn": {
+          "fcUID_longdayummnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0": [
+            "17443613062450"
+          ]
+        },
+        "pathTags": "taga,tagb",
+        "isValidationsEnabled": true
+      },
+      {
+        "pathKey": [
+          "fcn_yetanotherpathwithlongdayummmname_0",
+          "fcn_additemtocart_0"
+        ],
+        "dependsPathUID": "17443613397712",
+        "isValidationsEnabled": true
+      },
+      {
+        "pathKey": [
+          "fcn_normalpath_0",
+          "fcn_logoutuser_0"
+        ],
+        "dependsPathUID": "17443613528423",
+        "pathTags": "teabagging",
+        "isValidationsEnabled": false
+      }
+    ],
+    "flowChartUID": "fcUID_longdayummnameloremipsumdolorsitametconsecteturadipiscingelitcurabiturconguesemnecmaurisegestasinfinibusnuncaugue_0",
+    "pathExecutionOrder": [
+      "17443613062450",
+      "17443613254361",
+      "17443613397712",
+      "17443613528423"
+    ]
+  },
+  "enabled": true,
+  "parentId": ""
+}
