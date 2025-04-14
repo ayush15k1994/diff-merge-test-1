@@ -49,7 +49,7 @@
       },
       "fcn_registeruser_0": {
         "id": "fcn_registeruser_0",
-        "content": "Register a $user",
+        "content": "Register the $user",
         "nodeType": "action",
         "branches": []
       },
